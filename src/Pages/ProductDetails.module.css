@@ -48,10 +48,9 @@
     .product{
         flex-direction: column;
         align-items: center;
+        padding: 0 1rem;
     }
-    .product-info{
-        padding: 2rem auto;
-    }
+    
     .img-container{
         margin-bottom: 1.5rem;
     }
