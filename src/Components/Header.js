@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from "./Header.module.css"
 import {Link} from "react-router-dom"
+import Logo from "../images/logo.png"
 
 const Header = () => {
     return (
@@ -8,9 +9,7 @@ const Header = () => {
             <div className={classes.header}>
                 <div className={classes.logo}>
                     <Link to="/">
-                        <h2>
-                            Fonstore
-                        </h2> 
+                        <img src={Logo} alt="logo" />
                     </Link>
                 </div>
                 <div className={classes.cart}>

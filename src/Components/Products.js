@@ -14,8 +14,8 @@ const Products = () => {
                         <div className={classes["img-container"]}>
                             <img src={img} alt={title} />
                         </div>
-                        <p>{title}</p>
-                        <p>{price}</p>
+                        <p className={classes.title}>{title}</p>
+                        <p className={classes.price}>${price}</p>
                     </div>
                 </div>
                 </Link>
