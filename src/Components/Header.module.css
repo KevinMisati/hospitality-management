@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 10;
 }
 .header{
     width: 100%;
@@ -11,10 +12,8 @@
     align-items: center;
     justify-content: space-between;
 }
-.logo h2{
-    font-size: 2rem;
-    text-transform: uppercase;
-    text-decoration: none;
+.logo{
+    z-index: 10;
 }
 .logo a{
     text-decoration: none;
@@ -33,6 +32,7 @@
 }
 .logo img{
     height: 50px;
+    z-index: 10;
 }
 
 @media screen and (max-width:576px){
