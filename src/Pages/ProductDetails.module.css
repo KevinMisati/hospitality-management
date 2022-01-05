@@ -45,6 +45,9 @@
 
 
 @media screen and (max-width:576px){
+    .product-container{
+        margin: 2rem 0;
+    }
     .product{
         flex-direction: column;
         align-items: center;
