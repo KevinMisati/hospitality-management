@@ -14,6 +14,16 @@
 .logo h2{
     font-size: 2rem;
     text-transform: uppercase;
+    text-decoration: none;
+}
+.logo a{
+    text-decoration: none;
+    color: #000;
+}
+.logo a:active{
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 .cart{
     font-size: 2rem;

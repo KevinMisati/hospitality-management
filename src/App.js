@@ -1,5 +1,6 @@
 import './App.css';
 import Home from "./Pages/Home"
+import Product from "./Pages/ProductDetails"
 import Header from "./Components/Header"
 import {Routes,Route} from "react-router-dom"
 
@@ -12,13 +13,9 @@ function App() {
         <Header />
       </header>
       <Routes>
-        <Route path="/" >
-          <Home />
-        </Route>
-
-        
+        <Route path="/" element={<Home />} />
+        <Route path="product/:id" element={<Product />} /> 
       </Routes>
-     
     </div>
   );
 }
