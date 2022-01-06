@@ -3,6 +3,7 @@ import Home from "./Pages/Home"
 import Product from "./Pages/ProductDetails"
 import Header from "./Components/Header"
 import {Routes,Route} from "react-router-dom"
+import Footer from "./Components/Footer"
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="product/:id" element={<Product />} /> 
       </Routes>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
