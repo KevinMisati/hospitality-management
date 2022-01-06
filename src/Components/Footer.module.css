@@ -5,6 +5,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    position: static;
+    bottom: 0;
+    z-index: -1;
 }
 .footer{
     width: 100%;
