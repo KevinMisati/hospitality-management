@@ -4,6 +4,9 @@ import Product from "./Pages/ProductDetails"
 import Header from "./Components/Header"
 import {Routes,Route} from "react-router-dom"
 import Footer from "./Components/Footer"
+import ScrollToTop from "./ScrollToTop"
+
+
 
 
 function App() {
@@ -13,9 +16,11 @@ function App() {
         
         <Header />
       </header>
+      
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="product/:id" element={<Product />} /> 
+        
+          <Route path="/" element={<Home />} />
+          <Route path="product/:id" element={<Product />} /> 
       </Routes>
       <footer>
         <Footer />
