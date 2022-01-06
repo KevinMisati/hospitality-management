@@ -2,7 +2,6 @@ import React,{useState} from 'react'
 import classes from "./ProductDetails.module.css"
 import {products} from "../data"
 import {useParams} from "react-router-dom"
-import Zoom from 'react-img-zoom'
 const Product = () => {
     const param = useParams()
     const id = param.id
