@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from "./Home.module.css"
-import Banner from "../Components/Banner"
-import Products from "../Components/Products"
+import Banner from "../Components/Home/Banner"
+import Products from "../Components/Home/Products"
 
 const Home = () => {
     return (

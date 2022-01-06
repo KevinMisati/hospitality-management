@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import classes from "./ProductDetails.module.css"
+import SimilarProducts from "../Components/ProductDetails/SimilarProducts"
 import {products} from "../data"
 import {useParams} from "react-router-dom"
 const Product = () => {
@@ -24,6 +25,13 @@ const Product = () => {
                     </p>
                 </div>
             </div> 
+            <div className={classes["similar-products"]}>
+                <SimilarProducts 
+                    category={product.category} 
+                    title={product.title}
+                    headerTitle="Similar products"
+                 />
+            </div>
         </div>
     )
 }
