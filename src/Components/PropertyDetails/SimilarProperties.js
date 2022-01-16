@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from "./SimilarProducts.module.css"
+import classes from "./SimilarProperties.module.css"
 import { products } from "../../data"
 import { Link } from "react-router-dom"
 const Products = ({headerTitle,category,title}) => {

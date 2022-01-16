@@ -75,12 +75,22 @@
     color: var(--red);
 }
 @media screen and (max-width:576px){
+    .product-container{
+        flex: calc(100% / 2) !important;
+        width:100% !important;
+        z-index: -1;
+        margin-right: .5rem;
+    }
     .products{
         justify-content: center;
         padding: 1rem .5rem;
     }
     .img-container{
-        width: 150px;
+        width: 250px;
         height: 200px;
+    }
+    .img-container .img{
+        width: 100%;
+        height: 100%;
     }
 }
