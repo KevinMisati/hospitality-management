@@ -4,7 +4,7 @@ import {products} from "../../data"
 import {Link} from "react-router-dom"
 const Products = () => {
     return (
-        <div className={classes["products-container"]}>
+        <div id="properties" className={classes["products-container"]}>
             <h1>Discover our properties</h1>
             <div className={classes.products}>
             {products.map(({id,title,img,price}) => (

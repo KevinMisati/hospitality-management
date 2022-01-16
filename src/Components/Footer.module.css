@@ -68,7 +68,8 @@ input:focus{
     font-size: 2rem;
     margin: 1rem;
     cursor: pointer;
-    
+    color: inherit;
+    transition: var(--transition);
 }
 .contacts i:hover{
     color: var(--red);

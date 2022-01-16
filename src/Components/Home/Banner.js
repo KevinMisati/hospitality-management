@@ -10,7 +10,7 @@ const Banner = () => {
                     <h1>Kenya's Most Creative Hospitality Company</h1>
                     <p>We manage luxury villas, hotels, guest houses, resorts, and vacation homes in Kenya.</p>
                     <div className={classes.link}>
-                        <Link to="/" >Explore</Link>
+                        <a href="#properties" >Explore</a>
                     </div>
                     
                 </div>
