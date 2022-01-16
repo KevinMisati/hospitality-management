@@ -12,8 +12,10 @@ const Header = () => {
                         <img src={Logo} alt="logo" />
                     </Link>
                 </div>
-                <div className={classes.cart}>
-                    <i className="fas fa-cart-plus"></i>
+                <div className={classes.nav}>
+                    <Link to="/">
+                        Home
+                    </Link>
                 </div>
             </div>
         </header>

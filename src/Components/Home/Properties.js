@@ -1,11 +1,11 @@
 import React from 'react'
-import classes from "./Products.module.css"
+import classes from "./Properties.module.css"
 import {products} from "../../data"
 import {Link} from "react-router-dom"
 const Products = () => {
     return (
         <div className={classes["products-container"]}>
-            <h1>Products</h1>
+            <h1>Discover our properties</h1>
             <div className={classes.products}>
             {products.map(({id,title,img,price}) => (
                 <Link  key={id} to={`/product/${id}`}>

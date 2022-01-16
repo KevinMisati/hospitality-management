@@ -4,8 +4,7 @@
     display:flex;
     justify-content: center;
     background-color: aqua;
-    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("https://www.forbes.com/uk/advisor/wp-content/uploads/2020/11/phones-switch-apps.jpg") ;
-    background-attachment: fixed;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("../../images/bg.jpg") center/cover no-repeat fixed;
 
 }
 .banner{
@@ -13,12 +12,41 @@
     display: flex;
     align-items: center;
     color: #fff;
+    padding: 1rem;
 }
 .banner h1{
     text-align: center;
+    margin-bottom: 2rem;
+
 }
-@media screen and (max-width:700px){
-    .banner-container{
-        background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://www.forbes.com/uk/advisor/wp-content/uploads/2020/11/phones-switch-apps.jpg") center/contain no-repeat fixed ;
+.banner p{
+    text-align: center;
+    font-size: 1.05rem;
+}
+.link{
+    text-align: center;
+    padding: .5rem 1rem;
+    margin: 2rem auto;
+    width: 250px;
+    background: var(--red);
+    padding: 1rem;
+    border-radius: 55px;
+    font-size: 1.1rem;
+    border: 1px solid var(--red);
+    cursor: pointer;
+    transition: 300ms linear;
+}
+.link:hover{
+    background: transparent;
+}
+.banner a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:576px){
+    .link{
+        width: 200px;
     }
 }
