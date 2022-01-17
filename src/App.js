@@ -1,12 +1,9 @@
 import './App.css';
 import Home from "./Pages/Home"
-import Product from "./Pages/PropertyDetails"
+import PropertyDetails from "./Pages/PropertyDetails"
 import Header from "./Components/Header"
 import {Routes,Route} from "react-router-dom"
 import Footer from "./Components/Footer"
-import ScrollToTop from "./ScrollToTop"
-
-
 
 
 function App() {
@@ -20,7 +17,7 @@ function App() {
       <Routes>
         
           <Route path="/" element={<Home />} />
-          <Route path="product/:id" element={<Product />} /> 
+          <Route path="product/:id" element={<PropertyDetails />} /> 
       </Routes>
       <footer>
         <Footer />

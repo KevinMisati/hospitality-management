@@ -3,8 +3,10 @@ import classes from "./SimilarProperties.module.css"
 import { products } from "../../data"
 import { Link } from "react-router-dom"
 const Products = ({headerTitle,category,title}) => {
-    let similarProducts = products.filter(product => product.category === category)
-    similarProducts = similarProducts.filter(product => product.title !== title)
+    let similarProducts = products.filter(product => product.category === category) 
+    console.log(similarProducts)
+    similarProducts = similarProducts.filter(product => product.title != title) 
+    console.log(similarProducts)
     return (
         <div className={classes["products-container"]}>
             <h3>{headerTitle}</h3>

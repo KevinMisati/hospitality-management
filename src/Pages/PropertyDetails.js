@@ -1,13 +1,13 @@
 import React from 'react'
 import classes from "./PropertyDetails.module.css"
-import SimilarProducts from "../Components/PropertyDetails/SimilarProperties"
+import SimilarProperties from "../Components/PropertyDetails/SimilarProperties"
 import {products} from "../data"
 import {useParams} from "react-router-dom"
 const Product = () => {
     const param = useParams()
     const id = param.id
- 
-    let product = products.filter(product => product.id === id)
+    
+    let product = products.filter(product => product.id == id)
     product = product[0]
   
     return (
@@ -26,10 +26,10 @@ const Product = () => {
                 </div>
             </div> 
             <div className={classes["similar-products"]}>
-                <SimilarProducts 
+                <SimilarProperties
                     category={product.category} 
                     title={product.title}
-                    headerTitle="Similar products"
+                    headerTitle="Similar properties"
                  />
             </div>
         </div>
