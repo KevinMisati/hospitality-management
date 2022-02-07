@@ -1,18 +1,26 @@
 .banner-container{
-    height: calc(100vh - 100px);
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    background-color: aqua;
-    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("../../images/bg.jpg") center/cover no-repeat fixed;
-
+    height: calc(100vh - 75px);
+    position: relative;
+    position: static;
+}
+.background-video {
+  width: 100%;
+  height: calc(100vh - 75px);
+  object-fit: cover;
+  z-index: -5;
+  position:absolute;
 }
 .banner{
-    height: 100%;
+    height: calc(100vh - 75px);
     display: flex;
-    align-items: center;
+    flex-direction: column;
     color: #fff;
     padding: 1rem;
+    z-index: -2;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
 }
 .banner h1{
     text-align: center;
