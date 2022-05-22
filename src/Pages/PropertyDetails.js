@@ -10,7 +10,7 @@ const Product = () => {
     
     let product = products.filter(product => product.id == id)
     product = product[0]
-  
+  const {location} = product
     return (
         
         <div  className={classes["product-container"]}>
@@ -29,6 +29,7 @@ const Product = () => {
             <div className={classes["similar-products"]}>
                 <GoogleMap 
                     title="Location"
+                    location={location}
                 />
                 <SimilarProperties
                     category={product.category} 
