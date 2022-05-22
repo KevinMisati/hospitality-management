@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from "./PropertyDetails.module.css"
 import SimilarProperties from "../Components/PropertyDetails/SimilarProperties"
+import GoogleMap from "../Components/PropertyDetails/GoogleMaps"
 import {products} from "../data"
 import {useParams} from "react-router-dom"
 const Product = () => {
@@ -26,11 +27,16 @@ const Product = () => {
                 </div>
             </div> 
             <div className={classes["similar-products"]}>
+                <GoogleMap 
+                    title="Location"
+                />
                 <SimilarProperties
                     category={product.category} 
                     title={product.title}
                     headerTitle="Similar properties"
                  />
+
+                 
             </div>
         </div>
     )
