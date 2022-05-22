@@ -15,8 +15,16 @@ const Footer = () => {
                 </button>
             </form>
             <div className={classes.contacts}>
-                <i className="fab fa-facebook"></i>
-                <i className="fab fa-instagram"></i>
+                <a href="https://www.linkedin.com/in/kevin-misati-b5a399208/">
+                    <i className="fab fa-linkedin"></i>
+                </a>
+                    <a href="https://twitter.com/misatikevi">
+                    <i className="fab fa-twitter"></i>
+                </a>
+                <a href="https://github.com/KevinMisati">
+                    <i className="fab fa-github"></i>
+                </a>
+                
             </div>
                 <div className={classes.copyright}>© 2022 Livit hospitality</div>
           </div>  

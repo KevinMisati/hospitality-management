@@ -64,11 +64,16 @@ input:focus{
 .contacts{
     text-align: center;
 }
+.conatcts a{
+    
+    text-decoration: none;
+    cursor: pointer;
+}
 .contacts i{
     font-size: 2rem;
     margin: 1rem;
     cursor: pointer;
-    color: inherit;
+    color:var(--red) !important;
     transition: var(--transition);
 }
 .contacts i:hover{

@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 1rem;
 }
 .product{
     display:flex;
@@ -22,6 +23,7 @@
     cursor: pointer;
     z-index: -1;
     margin-right: 2rem;
+    min-width: 350px;
 }
 .img-container img{
     transition: all 300ms ;
@@ -48,9 +50,10 @@
 }
 
 
-@media screen and (max-width:576px){
+@media screen and (max-width:600px){
     .img-container{
         margin-right: 0;
+        min-width: 250px;
     }
     .product-info{
         margin-left: auto;
