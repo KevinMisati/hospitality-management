@@ -25,7 +25,6 @@
 .product-container{
     flex: calc(100% / 4) !important;
     z-index: -1;
-    margin: 0 .5rem;
 }
 .product{
     padding: 2rem auto;
@@ -37,7 +36,7 @@
     width: 325px;
     height: 225px;
     cursor: pointer;
-    margin: 1rem auto;
+    margin: 1rem .35rem;
     margin-bottom: .5rem;
     position: relative;
     transition: all 2000ms;
@@ -80,8 +79,6 @@
         flex: calc(100% / 2) !important;
         width:100% !important;
         z-index: -1;
-        margin: 0 .5rem;
-        margin-right: .5rem;
     }
     .products{
         justify-content: center;
@@ -91,6 +88,7 @@
         width: 90%;
         min-height: 90%;
         height: 90%;
+        margin: .5rem 0;
     }
     .img-container .img{
         width: 100%;
