@@ -2,6 +2,8 @@
 
 This is a website for people who enjoy traveling, possibly during the holidays, and who want to book their accommodation houses or rooms online before they travel. They simply look through the houses and rooms and choose the ones they like best.
 
+Check it live [here](https://liviti.netlify.app/)
+
 # Technologies Used
 React
 
