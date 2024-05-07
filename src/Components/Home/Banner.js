@@ -6,9 +6,9 @@ const Banner = () => {
     return (
         <div className={classes["banner-container"]}>
             <div >
-                <video className={classes["background-video"]} autoPlay loop muted /* poster="https://assets.codepen.io/6093409/river.jpg" */>
-                    {/* <source src="https://vod-progressive.akamaized.net/exp=1644260343~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F1707%2F18%2F458535442%2F2025651690.mp4~hmac=14563194f877e33a2160e8493c6765fd68d9fb52da6aeae80547b16eb7473db3/vimeo-prod-skyfire-std-us/01/1707/18/458535442/2025651690.mp4?filename=pexels-cottonbro-5371876.mp4" type="video/mp4" /> */}
-                    <source src="https://player.vimeo.com/external/546628703.sd.mp4?s=76673509116b8840fa48f6dcd26f4ddff038a341&profile_id=164&oauth2_token_id=57447761" type="video/mp4" />
+                <video className={classes["background-video"]} autoPlay loop muted >
+                    {/* <source src="https://videos.pexels.com/video-files/6474635/6474635-uhd_4096_2160_25fps.mp4" type="video/mp4" /> */}
+                    <source src="https://videos.pexels.com/video-files/6466343/6466343-uhd_4096_2160_25fps.mp4" type="video/mp4" />
                 </video>
                 <div>
                     <div className={classes.banner}>
