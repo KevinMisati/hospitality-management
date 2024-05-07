@@ -26,7 +26,7 @@ const Footer = () => {
                 </a>
                 
             </div>
-                <div className={classes.copyright}>© 2022 Livit hospitality</div>
+                <div className={classes.copyright}>© {new Date().getFullYear()} Livit hospitality</div>
           </div>  
         </div>
     )
